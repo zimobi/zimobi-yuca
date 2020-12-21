@@ -6,7 +6,7 @@
     "neighbourhood": "Jardim Paulista",
     "city": "São Paulo",
     "state": "SP",
-    "postal_code": "12345-000",
+    "postal_code": "01310-100",
     "property_type": "flat",
     "rental_type": "residential",
     "usable_floor_area_in_square_meters": 85,
@@ -39,12 +39,12 @@
     "shared_gym": false,
     "observations": false,
     "images": [
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png"
-    ] 
+      "https://via.placeholder.com/1200x640/09f/fff.png",
+      "https://via.placeholder.com/1200x640/acfb70/fff.png",
+      "https://via.placeholder.com/1200x640/9d3d9c/fff.png",
+      "https://via.placeholder.com/1200x640/cbbc78/fff.png",
+      "https://via.placeholder.com/1200x640/40d6c3/fff.png"
+    ]
   },
   {
     "street": "Rua Santa Efigenia",
@@ -53,7 +53,7 @@
     "neighbourhood": "Centro Histórico de São Paulo",
     "city": "São Paulo",
     "state": "SP",
-    "postal_code": "12345-000",
+    "postal_code": "01207-000",
     "property_type": "flat",
     "rental_type": "residential",
     "usable_floor_area_in_square_meters": 45,
@@ -86,11 +86,11 @@
     "shared_gym": false,
     "observations": false,
     "images": [
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png",
-        "https://via.placeholder.com/1200x640/09f/fff.png"
-    ] 
+      "https://via.placeholder.com/1200x640/09f/fff.png",
+      "https://via.placeholder.com/1200x640/acfb70/fff.png",
+      "https://via.placeholder.com/1200x640/9d3d9c/fff.png",
+      "https://via.placeholder.com/1200x640/cbbc78/fff.png",
+      "https://via.placeholder.com/1200x640/40d6c3/fff.png"
+    ]
   }
 ]
