@@ -39,7 +39,7 @@
 | Salão de festas       | party_room                         | boolean | optional | `false`                                                        |
 | Piscina no condomínio | shared_pool                        | boolean | optional | `false`                                                        |
 | Academia              | shared_gym                         | boolean | optional | `false`                                                        |
-| Observações           | observations                       | boolean | optional | `false`                                                        |
+| Observações           | observations                       | string  | optional |                                                                |
 
 # Options for Fields
 
