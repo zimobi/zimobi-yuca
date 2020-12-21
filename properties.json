@@ -37,7 +37,7 @@
     "party_room": false,
     "shared_pool": false,
     "shared_gym": false,
-    "observations": false,
+    "observations": "Apartamento muito novo!!!",
     "images": [
       "https://via.placeholder.com/1200x640/09f/fff.png",
       "https://via.placeholder.com/1200x640/acfb70/fff.png",
@@ -84,7 +84,7 @@
     "party_room": false,
     "shared_pool": false,
     "shared_gym": false,
-    "observations": false,
+    "observations": "Apartamento antigo, recém reformado!!!",
     "images": [
       "https://via.placeholder.com/1200x640/09f/fff.png",
       "https://via.placeholder.com/1200x640/acfb70/fff.png",
