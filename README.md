@@ -40,13 +40,6 @@
 | Piscina no condomínio | shared_pool                        | boolean | optional | `false`                                                        |
 | Academia              | shared_gym                         | boolean | optional | `false`                                                        |
 | Observações           | observations                       | boolean | optional | `false`                                                        |
-| Quarto de serviço     | service_room                       | boolean | optional | `false`                                                        |
-| Quarto de serviço     | service_room                       | boolean | optional | `false`                                                        |
-| Quarto de serviço     | service_room                       | boolean | optional | `false`                                                        |
-| Quarto de serviço     | service_room                       | boolean | optional | `false`                                                        |
-| Quarto de serviço     | service_room                       | boolean | optional | `false`                                                        |
-| Quarto de serviço     | service_room                       | boolean | optional | `false`                                                        |
-
 
 # Options for Fields
 
