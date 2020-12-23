@@ -2,6 +2,7 @@
 
 | Field                 | Name                               | Type    | Rules    | Example                                                        |
 | :-------------------- | :--------------------------------- | :------ | :------- | :------------------------------------------------------------- |
+| Ref do imóvel na Yuca | external_id                        | string  | optional | `12345`                                                        |
 | Rua                   | street                             | string  | required | `"Avenida Paulista"`                                           |
 | Numero                | number                             | integer | required | `123`                                                          |
 | Complemento           | complement                         | string  | optional |                                                                |
@@ -16,13 +17,14 @@
 | Quartos               | number_of_rooms                    | integer | required | `2`                                                            |
 | Suites                | number_of_suites                   | integer | required |                                                                |
 | Vagas de Garagem      | number_of_parking_spots            | integer | required |                                                                |
-| Titulo do Anúncio     | title                              | string  | required |                                                                |
+| Status do Anúncio     | status                             | string  | optional | `"active"`                                                     |
+| Título do Anúncio     | title                              | string  | required |                                                                |
 | Descrição do Anúncio  | description                        | string  | required |                                                                |
 | Valor do Aluguel      | rental_price_in_cents              | integer | required | `210000` -> R$ 2.100,00                                        |
 | Valor do Condominio   | condo_fee_in_cents                 | integer | optional | `50000` -> R$ 500,00                                           |
 | Valor do Iptu         | iptu_price_in_cents                | integer | optional | `25000` -> R$ 250,00                                           |
 | Valor Total           | total_price_in_cents               | integer | required | `285000`-> R$ 2.850,00 (rental_price + iptu_price + condo_fee) |
-| Mobilia               | furnish_type                       | string  | required | `"no"`                                                         |
+| Mobilia               | furnish_type                       | string  | optional | `"no"`                                                         |
 | Aceita pets           | allow_pets                         | boolean | optional | `true`                                                         |
 | Area de serviço       | service_area                       | boolean | optional | `false`                                                        |
 | Armário no quarto     | room_cabinet                       | boolean | optional | `false`                                                        |
@@ -44,12 +46,24 @@
 # Options for Fields
 
 ### property_type
-flat apartment studio kitnet
+* flat 
+* apartment 
+* studio 
+* kitnet
 
 ---
 ### rental_type
-residential commercial
+* residential 
+* commercial
 
 ---
 ### furnish_type
-no yes semi
+* no 
+* yes 
+* semi
+
+---
+### status
+* draft 
+* active 
+* inactive

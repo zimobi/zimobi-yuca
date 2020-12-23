@@ -1,5 +1,6 @@
 [
   {
+    "external_id": "1",
     "street": "Avenida Paulista",
     "number": 1001,
     "complement": "APTO 323",
@@ -15,6 +16,7 @@
     "number_of_bathrooms": 2,
     "number_of_suites": 1,
     "number_of_parking_spots": 1,
+    "status": "active",
     "title": "Flat de alto padrão",
     "description": "Flat de alto padrão na região nobre de SP. Otima localização, próximo a Metrô, Restaurantes, Supermercados, Hospitais, Escolas, Creches e Faculdades.",
     "rental_price_in_cents": 220000,
@@ -47,6 +49,7 @@
     ]
   },
   {
+    "external_id": "2",
     "street": "Rua Santa Efigenia",
     "number": 220,
     "complement": "APTO 24",
@@ -62,6 +65,7 @@
     "number_of_bathrooms": 1,
     "number_of_suites": 0,
     "number_of_parking_spots": 0,
+    "status": "active",
     "title": "Flat no centro",
     "description": "Flat no centro Histórico de São Paulo. Fácil acesso ao transporte publico. Região com vasto comércio.",
     "rental_price_in_cents": 180000,
